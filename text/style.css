@@ -1,0 +1,50 @@
+html, body, p{
+    margin: 0;
+    padding: 0;
+  }
+  
+body{
+    font-family: 'Noto Serif JP', serif;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    height:10000px;
+    background: #97eef6;
+    transition: 1s;
+}
+
+h2,h3,p{
+    margin: 0;
+}
+
+h2{
+    display: none;
+}
+
+#animation {
+    margin: auto;
+}
+
+p{
+    margin: 20rem 0;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
