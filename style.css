@@ -2,15 +2,13 @@ html, body, p{
     margin: 0;
     padding: 0;
   }
-  
+
 body{
     font-family: 'Noto Serif JP', serif;
     color: #fff;
     font-size: 1rem;
     text-align: center;
-    height:10000px;
-    background: #97eef6;
-    transition: 1s;
+    background: linear-gradient(-20deg,#0a0f2b 0%, #61abe7 100%);
 }
 
 h2,h3,p{
@@ -26,7 +24,7 @@ h2{
 }
 
 p{
-    margin: 13rem 0;
+    margin: 15rem 0;
 }
 
 .fadeInDown {
