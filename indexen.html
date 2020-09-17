@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Day Tripper</title>
+</head>
+<body>
+    <div id="all">
+
+        <header>
+            <a href="index.html">JP</a> / <a href="indexen.html">EN</a>
+        </header>
+
+        <div class="animation">
+        <p>Hey long time no see, <br>what are you been up to?</p>
+        </div>
+
+        <div class="animation">
+        <p>Me? I’m doing good too.<br> Actually a little bit tired from work.</p>
+        </div>
+
+        <div class="animation">
+        <p>It gets busier nowadays.</p>
+        </div>
+
+        <div class="animation">
+        <p>By the way you wouldn’t believe this, <br>I actually saw the Space.</p>
+        </div>
+
+        <div class="animation">
+        <p>No not in the movie, <br>on my way home.</p>
+        </div>
+
+
+        <div class="animation">
+        <p>Hear me out.<br>After I get off my train, <br>just making my way home,</p>
+        </div>
+
+        <div class="animation">
+        <p>I just kinda closed my eyes <br>enough to see a little. </p>
+        </div>
+
+
+        <div class="animation">
+        <p>Well it is blurry but the way <br>I saw the city lights and the lampposts, <br>
+            it really does looked-like the Space.</p>
+        </div>
+
+        <div class="animation">
+        <p>You know these days, <br>
+        like our normal days,<br>
+        we just get off from our 9 to 5 work,<br>
+        feeling very tired on the way home.</p>
+        </div>
+
+        <div class="animation">
+            <p>Sometimes we pass our stops either<br />
+            we’re asleep or our face is on the phone.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>But when you just lift<br />
+            your face and take <br />
+            a look around outside, </p>
+        </div>
+
+            
+        <div class="animation">
+            <p>the scenery with the countless<br>
+                train windows passing through<br>
+                from the opposite side looks<br>
+            very vivid and it kinda <br>takes your breath away.</p>
+        </div>
+
+
+        <div class="animation">
+            <p>A part of someone else’s lives passing<br />
+            through a tremendous speed.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>Passing through with each <br>other countless times,</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>I wonder if it will repeat <br>over and over again.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>Anyway back to what I’m talking <br>about earlier.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>The first time I glanced at that scene,<br />
+            It made my day and it changes<br />
+            my perspective on how I look on little things.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>I find it more amusing looking outside <br />
+            the window on my way home.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>For me it’s the landscape that <br />
+            I was looking for.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>Like when you go to a trip,<br />
+            there’s these scenery outside that <br />
+            you can glance and it’s like that.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>Even it is simple, <br />
+            if you just change on how<br />
+            you look a things you can find<br />
+            your Galaxy anywhere and I<br />
+            may have found mine.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>I know for sure that<br />
+            I can’t go to the space and <br>explore the Galaxy,<br />
+            But I can find my Galaxy here.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>You should try it next time. <br />
+            Try following the light outside<br />
+            the window on your way home.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>The flow of the light stretches and<br />
+            does look like an abstract painting. <br />
+            Can’t keep up with the pace though sometimes.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>It reminds of the feeling of <br>
+                the moving body, <br />
+            not only me but many <br>
+            other people are moving<br />
+            at a tremendous speed.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>I kinda chuckled about it the other day.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>The word [ MOVE ] have a lot of meaning<br />
+            and has more thought than ever.</p>
+        </div>
+
+        <div class="animation">
+            <p>You know, <br />
+            Mankind has always been <br>
+            moving forward and<br />
+            I feel alive when I’m moving.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>With the stars in the galaxy that<br />
+            keeps flowing around endlessly</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>We the people who live here on earth,</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>I wonder where it’s all connected.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>Gosh, I’ve talked too much.<br />
+            I’m about to head out.</p>
+        </div>
+
+            
+        <div class="animation">
+            <p>Let’s go for a stroll next time if <br>
+                we meet again.<br />
+            </p>
+        </div>
+</div>
+    
+    
+
+        <script>
+        $('.animation').css('visibility','hidden');
+            $(window).scroll(function(){
+             var windowHeight = $(window).height(),
+                 topWindow = $(window).scrollTop();
+             $('.animation').each(function(){
+              var targetPosition = $(this).offset().top;
+              if(topWindow > targetPosition - windowHeight + 100){
+               $(this).addClass("fadeInDown");
+              }
+             });
+            });
+        </script>
+</body>
+</html>

@@ -19,12 +19,32 @@ h2{
     display: none;
 }
 
+header{
+    position: fixed;
+    width: 100%;
+    top:20px;
+    z-index: 100;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:link{
+    color: rgb(224, 224, 224);
+}
+
+a:visited{
+    color: #fff;
+}
+
 #animation {
     margin: auto;
 }
 
 p{
-    margin: 20rem 0;
+    margin: 18rem 0;
 }
 
 .fadeInDown {
