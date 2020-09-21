@@ -5,10 +5,10 @@ html, body, p{
 
 body{
     font-family: 'Noto Serif JP', serif;
-    color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
     font-size: 1.1rem;
     text-align: center;
-    background: linear-gradient(-20deg,#0e153d 0%, #61abe7 100%);
+    background: #fff;
 }
 
 h2,h3,p{
@@ -31,11 +31,11 @@ a{
 }
 
 a:link{
-    color: rgb(224, 224, 224);
+    color: rgba(0, 0, 0, 0.301);
 }
 
 a:visited{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 #animation {
